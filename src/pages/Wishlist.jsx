@@ -12,9 +12,9 @@ function Wishlist() {
   //   const list = await getWishlist(token)  ได้ { items } ที่เป็นรูปร่างเดียวกับการ์ดหนัง MovieGrid ใช้ได้เลย
   //   dependency คือ [token]
   
-  const [movies, setMovies] = useState([]);
-  const [status, setStatus] = useState('loading');
-  const [error, setError] = useState(null);
+const [movies, setMovies] = useState([]);
+const [status, setStatus] = useState('loading');
+const [error, setError] = useState(null);
 
 useEffect(() => {
   async function loadWishlist() {
